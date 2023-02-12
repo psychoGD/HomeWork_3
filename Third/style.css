@@ -18,14 +18,16 @@
 }
 
 .Side{
-    background-color: red;
     height: 50vh;
     position: relative;
 }
-
+.AsidesLeft,.MainContent,.AsideRight{
+    float: left;
+}
 .AsidesLeft{
     height: 40%;
     width: 20%;
+    
 }
 
 
@@ -43,4 +45,49 @@
     position: relative;
     left: 5;
     margin-left: 20px;
+    width: 60%;
+    padding: 0px 30px;
+    
+}
+
+.MainContent > h1{
+    color: white;
+}
+
+.MainContent > section{
+    padding: 0px 30px;
+    margin: 20px 2px 20px 0px;
+    background-color: pink;
+    height: 40%;
+}
+
+.MainContent > section >h1{
+    color: white;
+    padding: 50px;
+}
+
+.AsideRight{
+    margin-left: 5%;
+    writing-mode: vertical-rl;
+    text-align: center;
+    text-orientation: upright;
+    float: left;
+    margin-right: 0;
+    padding: 15px 30px;
+    height: 36vh;
+}
+
+.AsideRight > h1{
+    color: white;
+}
+
+footer{
+    margin: 10px 0;
+    padding: 20px 30px;
+    width: 96%;
+    background-color: rgb(172, 12, 81);
+}
+
+footer > h2{
+    color: white;
 }
