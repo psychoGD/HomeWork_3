@@ -19,11 +19,29 @@ footer{
 
 .FirstContainer,.SecondContainer,.SocialContainer{
     display: inline-block;
+    width: 33%;
     
 }
 
 .FirstContainer,.SecondContainer{
     text-align: center;
     margin: auto;
+    color: white;
     
+}
+
+.SocialItem {
+    margin-right: 20px;
+}
+
+#FBItem:hover > img{
+    content: url("/Images/fb.png");
+}
+
+#InstItem:hover > img{
+    content: url("/Images/insta.png");
+}
+
+#YTItem:hover > img{
+    content: url("/Images/youtube.png");
 }
