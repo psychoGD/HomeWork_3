@@ -1,0 +1,29 @@
+
+footer{
+    background-color: #2A4F6E;
+}
+
+.MainContainer{
+    background-color: #2A4F6E;
+    width: 70%;
+    margin: auto;
+}
+
+.MainContainer > p{
+    text-align: center;
+    font-size: 10px;
+    color: white;
+    font-weight: lighter;
+    padding-bottom: 20px;
+}
+
+.FirstContainer,.SecondContainer,.SocialContainer{
+    display: inline-block;
+    
+}
+
+.FirstContainer,.SecondContainer{
+    text-align: center;
+    margin: auto;
+    
+}
