@@ -1,0 +1,27 @@
+body>h1 {
+    text-align: center;
+}
+
+body>h2 {
+    text-align: center;
+}
+
+.items {
+    width: 60%;
+    margin: auto;
+}
+
+.item {
+    display: inline-block;
+    border: 1px solid;
+    border-radius: 20px;
+    margin: 10px;
+}
+
+.item>p {
+    text-align: center;
+}
+
+.item>img {
+    margin: 10px;
+}

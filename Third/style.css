@@ -1,0 +1,46 @@
+.HeaderDiv{
+    background-color: rgb(179, 43, 88);
+}
+.Text{
+    color: white;
+}
+
+.Text-1{
+    padding: 30px;
+}
+
+.MenuDiv{
+    background-color: rgb(107, 0, 36);
+}
+
+.Text-2{
+    padding: 20px;
+}
+
+.Side{
+    background-color: red;
+    height: 50vh;
+    position: relative;
+}
+
+.AsidesLeft{
+    height: 40%;
+    width: 20%;
+}
+
+
+
+.Text-3{
+    padding: 50px;
+    padding-bottom: 100px;
+}
+
+.ColorSide{
+    background-color: rgb(189, 70, 109);
+}
+
+.MainContent{
+    position: relative;
+    left: 5;
+    margin-left: 20px;
+}

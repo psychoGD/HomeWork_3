@@ -1,0 +1,19 @@
+body{
+
+
+}
+
+
+.MainDiv{
+    height: 50vh;
+    background-color: red;
+}
+
+.elements{
+    height: 50%;
+    background-color: green;
+}
+
+.element > img,h1{
+    display: inline-block;
+}
